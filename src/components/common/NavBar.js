@@ -30,7 +30,7 @@ function NavBar({route, setRoute}) {
 
              {/* <!-- Logo for mobile screen  --> */}
                <a className="navbar-brand m-auto  m-md-auto m-sm-auto " href="../index.html">
-               <img className="img-fluid" src="assets/images/logo/dark_logo.png" alt="" srcSet=""/>
+               <img className="img-fluid" src={require(`../../images/logo/dark_logo.png`)} alt="" srcSet=""/>
               </a>
               {/* <!-- Logo for mobile screen  ended--> */}
 

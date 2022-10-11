@@ -21,7 +21,7 @@ function Footer({route, setRoute}) {
              <div className="footer_left col-12 col-md-6 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 ">
                 <div className="footer_logo text-center text-sm-start">
                   <a href="index.html">
-                    <img className="img-fluid" src="assets/images/logo/light_logo.png" alt="" srcSet=""/>
+                    <img className="img-fluid" src={require(`../../images/logo/light_logo.png`)} alt="" srcSet=""/>
                   </a>
                 </div>
 
